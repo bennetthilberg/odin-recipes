@@ -5,3 +5,41 @@ body {
 h1 {
     color: maroon;
 }
+
+.picker {
+    display: flex;
+    background-color:blanchedalmond;
+    margin: 0 auto;
+    text-decoration: none;
+    margin: 20px;
+    padding: 30px;
+    height: 200px;
+}
+
+.picker .taco{
+    background-color: rgb(104, 82, 29);
+    color: white;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.picker .taco:hover {
+    background-color: rgb(137, 120, 76);
+}
+
+.picker .lasagna {
+    background-color: maroon;
+    color: white;
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.picker .lasagna:hover {
+    background-color: rgb(217, 87, 85);
+}
+ .picker a {
+    text-decoration: none;
+    color: white;
+ }
